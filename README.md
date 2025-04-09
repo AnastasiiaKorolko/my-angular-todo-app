@@ -1,59 +1,80 @@
-# TodoListAppKorol
+# TodoListApp
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.6.
+A responsive and interactive Todo List application built with Angular, allowing users to manage their tasks efficiently.
 
-## Development server
+## Features
 
-To start a local development server, run:
+- **Task Management**: Add, edit, and delete tasks
+- **Status Toggle**: Mark tasks as completed or pending with a simple click
+- **Data Persistence**: Tasks are loaded from a API
+- **Responsive Design**: Works seamlessly across desktop and mobile devices
 
+## Live Demo
+
+Check out the working application: [Todo List App](https://anastasiiakorolko.github.io/my-angular-todo-app/)
+
+## Technologies Used
+
+- Angular 19.2.6
+- TypeScript
+- HTML/CSS
+- Angular HTTP Client for data fetching
+
+## Project Structure
+
+The application is organized into components following Angular best practices:
+- **TodoListComponent**: Main component for displaying and managing todos
+- **TodoItemComponent**: Individual todo item with edit/delete capabilities
+- **TodoService**: Service for handling HTTP requests and state management
+
+## Development Process
+
+This Todo List application was developed as a practice project to demonstrate Angular fundamentals, including:
+- Component creation and communication
+- Service implementation
+- HTTP client usage
+- Data binding and event handling
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js and npm installed
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/AnastasiiaKorolko/my-angular-todo-app.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd my-angular-todo-app
+```
+
+3. Install dependencies:
+```bash
+npm install
+```
+
+4. Start the development server:
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+5. Open your browser and navigate to `http://localhost:4200/`
 
-## Code scaffolding
+## Building for Production
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
-
-```bash
-ng generate component component-name
-```
-
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+To build the project for production, run:
 
 ```bash
 ng build
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+The build artifacts will be stored in the `dist/` directory.
 
-## Running unit tests
+## Additional Information
 
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+For more information on using Angular CLI, refer to the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
